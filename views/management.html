@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<HTML>
+    <HEAD>
+        <TITLE>Management</TITLE>
+        <META charset="utf-8"/>
+        <LINK rel="stylesheet" type="text/css" href="css/style.css">
+    </HEAD>
+
+    <BODY>
+        <DIV class="container">
+            <H1>USER MANAGER</H1><BR>
+
+            <SECTION id="create">
+                <FORM method="POST" action="/create">
+                    <H2>CREAR UN NUEVO USUARIO</H2>
+                    <LABEL for="username"><STRONG>USUARIO</STRONG></LABEL>
+                    <INPUT type="text" name="username">
+                    <LABEL for="password"><STRONG>CONTRASEÑA</STRONG></LABEL>
+                    <INPUT type="password" name="password">
+                    <BUTTON type="submit" name="create">CREAR</BUTTON>
+                </FORM>
+            </SECTION>
+
+            <SECTION id="reset">
+                <FORM method="POST" action="/reset">
+                    <H2>ACTUALIZAR CONTRASEÑA</H2>
+                    <LABEL for="username"><STRONG>USUARIO</STRONG></LABEL>
+                    <INPUT type="text" name="username">
+                    <LABEL for="password"><STRONG>NUEVA CONTRASEÑA</STRONG></LABEL><BR>
+                    <INPUT type="password" name="password">
+                    <BUTTON type="submit" name="reset">ACTUALIZAR</BUTTON>
+                </FORM>
+            </SECTION>
+
+            <SECTION id="delete">
+                <FORM method="POST" action="/delete">
+                    <H2>BORRAR USUARIO</H2>
+                    <LABEL for="username"><STRONG>USUARIO</STRONG></LABEL>
+                    <INPUT type="text" name="username">
+                    <BUTTON type="submit" name="delete">BORRAR</BUTTON>
+                </FORM>
+            </SECTION>
+
+            <DIV id="img">
+                <IMG width="300" alt="LION" src="img/lion.jpeg"/>
+            </DIV>
+        </DIV>
+    </BODY>
+</HTML>
