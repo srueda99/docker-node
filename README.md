@@ -26,3 +26,7 @@ Una vez se conecte, corremos estos otros comandos:
 **Una vez corramos estos comandos, necesitamos refrescar el servidor de Nodejs, para esto debemos abrir el archivo index.js y guardarlo, ya que el servidor de Nodejs se refresca cada vez que guardamos el archivo index.js, así no haya ningún cambio.**
 
 Hecho esto, ya solo hay que poner http://localhost en el navegador (Corre por el puerto 80) y esto nos llevará a la página de Login, podemos ingresar poniendo 'pepe' como usuario y 'grillo' como contraseña.
+
+## Repositorio
+Todos estos archivos están subidos en el repositorio https://github.com/srueda99/docker-node y puede ser clonado.
+git clone https://github.com/srueda99/docker-node.git
